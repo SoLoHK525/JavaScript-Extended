@@ -14,13 +14,13 @@ Math.linspace = function (start, end, amount) {
 
     amount = amount || 100;
     
-	let sum = start;
+    let sum = start;
     let arr = [];
     
-	while(sum < end){
+    while(sum < end){
         arr.push(sum);
-		sum += (end - start) / amount;
+        sum += (end - start) / amount;
     }
-    
-	return arr;
+
+    return arr;
 }
